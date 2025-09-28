@@ -13,9 +13,12 @@
                 <li><strong>MI 349 Blog Assignment</strong></li>
             </ul>
             <ul>
-                <li><a href="../index.html">Index</a></li>
+                <!-- <li><a href="../index.html">Index</a></li>
                 <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../contact.html">Contact</a></li> -->
+                <li><a href="index.html">Index</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,8 +27,9 @@
         <h1>Blogs</h1>
 
         <h3>Does UI Affect Performance</h3>
-        <h6>Author: Seth Neubauer</h6>
-        <h6>Published: 09/27/2025</h6>
+        <p>Author: <span class="author">Seth Neubauer</span></p>
+        <p>Published: <time datetime="2025-09-27">09/27/2025</time></p>
+        
         <p>
             In today's digital world, your website’s user interface can make or break your business success. 
             With everything moving online, the way users interact with your site directly affects your brand. 
@@ -81,8 +85,8 @@
         </p>
     
         <h3>Evolution of Data Analytics in Sports</h3>
-        <h6>Author: Seth Neubauer</h6>
-        <h6>Published: 09/27/2025</h6>
+        <p>Author: <span class="author">Seth Neubauer</span></p>
+        <p>Published: <time datetime="2025-09-27">09/27/2025</time></p>
 
         <p>
             Sports as a whole have transformed with the rise of data analytics. 
@@ -106,12 +110,13 @@
 
         <p>If you want to keep up with my weekly blogs fill out your information below</p>
 
-        <input type="text" name="text" placeholder="Name" aria-label="Text">
-        <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email">
-        <input type="tel" name="tel" placeholder="Phone Number" aria-label="Tel" autocomplete="tel">
+        <form>
+            <input type="text" name="text" placeholder="Name" aria-label="Text">
+            <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email">
+            <input type="tel" name="tel" placeholder="Phone Number" aria-label="Tel" autocomplete="tel">
 
-        <button>Join Newsletter!</button>
-        
+            <button type="submit">Join Newsletter!</button>
+        </form>
     </main>
 </body>
 </html>

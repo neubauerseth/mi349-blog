@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <title>Home</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -13,9 +13,12 @@
                 <li><strong>MI 349 Blog Assignment</strong></li>
             </ul>
             <ul>
-                <li><a href="../index.html">Index</a></li>
+                <!-- <li><a href="../index.html">Index</a></li>
                 <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../contact.html">Contact</a></li> -->
+                <li><a href="index.html">Index</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,35 +27,31 @@
 
         <h1>Contact ME!</h1>
         
-        <p>Seth Neubauer</p>
-        <p>Neubau23@msu.edu</p>
+        <!-- <p>Seth Neubauer</p>
+        <p>Neubau23@msu.edu</p> -->
 
-        <!-- Dropdown -->
-        <!-- <details class="dropdown">
-        <summary>Reason for Contact</summary>
-        <ul>
-            <li><a href="#">Saying Hi</a></li>
-            <li><a href="#">Looking for a contractor</a></li>
-            <li><a href="#">Interested in an interview</a></li>
-        </ul>
-        </details> -->
-        <!-- Select -->
-        <select name="select" aria-label="Select" required>
-            <option selected disabled value="">Reason for Contact</option>
-            <option>Saying Hi</option>
-            <option>Looking for a contractor</option>
-            <option>Interested in an interview</option>
-        </select>
+        <form> 
 
-        <textarea
-            name="bio"
-            placeholder="Why do you want to contact me"
-            aria-label="Professional  short bio"
-            >
-        </textarea>
+            <input type="text" name="name" placeholder="Name" aria-label="Name" required>
+            <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+    
+            <select name="select" aria-label="Select" required>
+                <option selected disabled value="">Reason for Contact</option>
+                <option>Saying Hi</option>
+                <option>Looking for a contractor</option>
+                <option>Interested in an interview</option>
+            </select>
 
-        <button>Submit</button>
+            <textarea
+                name="bio"
+                placeholder="Why do you want to contact me"
+                aria-label="Professional  short bio"
+                >
+            </textarea>
 
+            <button type="submit">Submit</button>
+            
+        </form>
 
     </main>
 </body>
