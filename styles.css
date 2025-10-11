@@ -1,0 +1,131 @@
+/* 1 */
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* 2 */
+.blog-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* 3 */
+.blog-post-info {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* font-size: 14px; */
+    /* margin-bottom: 5px; */
+}
+
+/* 4 */
+.blog-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* 5 */
+.blog-post-writing {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* 6 */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* 7 */
+.info-form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* 8 */
+.blog-table {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+/* 9 */
+nav {
+    margin: 0px 50px;
+}
+
+/* 10 */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 11 */
+.about-image {
+    float: right;
+    margin-left: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* 12 */
+.image-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 13 */
+.image-right figcaption {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* 14 */
+.favorite-cars {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 15 */
+.favorite-cars ul {
+    flex: 1;
+    /* padding-left: 20px; */
+}
+
+/* 16 */
+.about-info {
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 17 */
+nav li {
+    color: #612940;
+}
+
+/* 18 */
+nav a {
+    color: #612940;
+    font-weight: bold;
+}

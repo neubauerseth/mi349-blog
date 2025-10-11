@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Home</title>
 </head>
 <body>
@@ -26,69 +27,76 @@
     <main>
         <h1>Blogs</h1>
 
-        <h3>Does UI Affect Performance</h3>
-        <p>Author: <span class="author">Seth Neubauer</span></p>
-        <p>Published: <time datetime="2025-09-27">09/27/2025</time></p>
+        <section class="blog-post-1">
+            <h3 class="blog-title">Does UI Affect Performance</h3>
+            <p class="blog-post-info">Author: <span class="author">&nbsp;Seth Neubauer</span></p>
+            <p class="blog-post-info">Published: <time datetime="2025-09-27">&nbsp;09/27/2025</time></p>
         
-        <p>
-            In today's digital world, your website’s user interface can make or break your business success. 
-            With everything moving online, the way users interact with your site directly affects your brand. 
-            First impressions happen in just a second. 
-            During this split second, visitors judge your site’s 
-            professionalism, trustworthiness, and ease of use if any element falls short, 
-            they’ll leave and likely never return, regardless of how great the product might be. 
-            Poor navigation costs companies customers. 
-            When users struggle to find what they need, they experience cognitive overload and abandon your site. 
-            The statistics are explaining that 88% of consumers won't return after a bad experience, and a one-second delay can reduce conversions by 7%.
-        </p>
+            <p class="blog-post-writing">
+                In today's digital world, your website’s user interface can make or break your business success. 
+                With everything moving online, the way users interact with your site directly affects your brand. 
+                First impressions happen in just a second. 
+                During this split second, visitors judge your site’s 
+                professionalism, trustworthiness, and ease of use if any element falls short, 
+                they’ll leave and likely never return, regardless of how great the product might be. 
+                Poor navigation costs companies customers. 
+                When users struggle to find what they need, they experience cognitive overload and abandon your site. 
+                The statistics are explaining that 88% of consumers won't return after a bad experience, and a one-second delay can reduce conversions by 7%.
+            </p>
 
-        <img src="../assets/uiBlog.png" alt="Example of good and bad UI design">
-        <table>
-            <thead>
-                <tr>
-                <th scope="col">UI Element</th>
-                <th scope="col">Poor Design Impact</th>
-                <th scope="col">Good Design Benefit</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <!-- <th scope="row">Mercury</th> -->
-                <td>Page Load Speeds</td>
-                <td>3+ seconds = 40% bounce rate</td>
-                <td>Udner 2 seconds = 15% bounce rate</td>
-                </tr>
-                <tr>
-                <!-- <th scope="row">Venus</th> -->
-                <td>Mobile Navigation</td>
-                <td>Hard to Tap = 65% exit rate</td>
-                <td>Touch Friendly = 25% exit rate</td>
-                </tr>
-                <tr>
-                <!-- <th scope="row">Earth</th> -->
-                <td>Call-To-Action</td>
-                <td>Unclear action = 2% conversion</td>
-                <td>Clear Action = 12% conversion</td>
-                </tr>
-            </tbody>
-            <tfoot> </tfoot>
-        </table>
+            <img src="../assets/uiBlog.png" class="blog-img" alt="Example of good and bad UI design">
+            <section class="blog-table">
+                <table>
+                    <thead>
+                        <tr>
+                        <th scope="col">UI Element</th>
+                        <th scope="col">Poor Design Impact</th>
+                        <th scope="col">Good Design Benefit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <!-- <th scope="row">Mercury</th> -->
+                        <td>Page Load Speeds</td>
+                        <td>3+ seconds = 40% bounce rate</td>
+                        <td>Udner 2 seconds = 15% bounce rate</td>
+                        </tr>
+                        <tr>
+                        <!-- <th scope="row">Venus</th> -->
+                        <td>Mobile Navigation</td>
+                        <td>Hard to Tap = 65% exit rate</td>
+                        <td>Touch Friendly = 25% exit rate</td>
+                        </tr>
+                        <tr>
+                        <!-- <th scope="row">Earth</th> -->
+                        <td>Call-To-Action</td>
+                        <td>Unclear action = 2% conversion</td>
+                        <td>Clear Action = 12% conversion</td>
+                        </tr>
+                    </tbody>
+                    <tfoot> </tfoot>
+                </table>
+            </section>
+            
 
-        <p>
-            Even if you offer life changing products, poor UI creates barriers that prevent discovery. 
-            Mobile responsiveness is crucial since over 60% of web traffic comes from mobile devices. 
-            Your site must work seamlessly across all screen sizes, from desktop monitors to smartphones.
-            Mobile users need tough friendly buttons, readable text, and fast loading times. 
-            The best UI design follows one principle, communicating maximum information with minimum components. 
-            This means clear visual hierarchy, intuitive navigation, generous white space, and obvious call to actions. 
-            Avoid common mistakes like cluttered homepages, hidden contact information, and confusing forms.
-        </p>
+            <p class="blog-post-writing">
+                Even if you offer life changing products, poor UI creates barriers that prevent discovery. 
+                Mobile responsiveness is crucial since over 60% of web traffic comes from mobile devices. 
+                Your site must work seamlessly across all screen sizes, from desktop monitors to smartphones.
+                Mobile users need tough friendly buttons, readable text, and fast loading times. 
+                The best UI design follows one principle, communicating maximum information with minimum components. 
+                This means clear visual hierarchy, intuitive navigation, generous white space, and obvious call to actions. 
+                Avoid common mistakes like cluttered homepages, hidden contact information, and confusing forms.
+            </p>
+
+        </section>
+        
     
-        <h3>Evolution of Data Analytics in Sports</h3>
-        <p>Author: <span class="author">Seth Neubauer</span></p>
-        <p>Published: <time datetime="2025-09-27">09/27/2025</time></p>
+        <h3 class="blog-title">Evolution of Data Analytics in Sports</h3>
+        <p class="blog-post-info">Author: <span class="author">&nbsp;Seth Neubauer</span></p>
+        <p class="blog-post-info">Published: <time datetime="2025-09-27">&nbsp;09/27/2025</time></p>
 
-        <p>
+        <p class="blog-post-writing">
             Sports as a whole have transformed with the rise of data analytics. 
             A realm that relied purely on instincts and basic statistics now offers everyday fans insights into every aspect of the game. 
             Modern broadcasts integrate real-time analytics that make watching spots more engaging and informative. 
@@ -106,17 +114,20 @@
             transforming passive watchers into active participants in the game’s strategic elements.
         </p>
     
-        <img src="../assets/daBlog.jpg" alt="Data Analytics being show on Live TV">
+        <img src="../assets/daBlog.jpg" class="blog-img" alt="Data Analytics being show on Live TV">
 
-        <p>If you want to keep up with my weekly blogs fill out your information below</p>
+        <p class="info-form">If you want to keep up with my weekly blogs fill out your information below</p>
 
-        <form name="newsletter" netlify>
-            <input type="text" name="text" placeholder="Name" aria-label="Text">
-            <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email">
-            <input type="tel" name="tel" placeholder="Phone Number" aria-label="Tel" autocomplete="tel">
+        <section class="form">
+            <form name="newsletter" netlify>
+                <input type="text" name="text" placeholder="Name" aria-label="Text">
+                <input type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email">
+                <input type="tel" name="tel" placeholder="Phone Number" aria-label="Tel" autocomplete="tel">
 
-            <button type="submit">Join Newsletter!</button>
-        </form>
+                <button type="submit">Join Newsletter!</button>
+            </form>
+        </section>
+        
     </main>
 </body>
 </html>

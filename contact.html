@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
+
     <title>Contact</title>
 </head>
 <body>
@@ -30,28 +32,31 @@
         <!-- <p>Seth Neubauer</p>
         <p>Neubau23@msu.edu</p> -->
 
-        <form name="contact" netlify> 
+        <section class="form">
+            <form name="contact" netlify> 
 
-            <input type="text" name="name" placeholder="Name" aria-label="Name" required>
-            <input type="email" name="email" placeholder="Email" aria-label="Email" required>
-    
-            <select name="select" aria-label="Select" required>
-                <option selected disabled value="">Reason for Contact</option>
-                <option>Saying Hi</option>
-                <option>Looking for a contractor</option>
-                <option>Interested in an interview</option>
-            </select>
+                <input type="text" name="name" placeholder="Name" aria-label="Name" required>
+                <input type="email" name="email" placeholder="Email" aria-label="Email" required>
+        
+                <select name="select" aria-label="Select" required>
+                    <option selected disabled value="">Reason for Contact</option>
+                    <option>Saying Hi</option>
+                    <option>Looking for a contractor</option>
+                    <option>Interested in an interview</option>
+                </select>
 
-            <textarea
-                name="bio"
-                placeholder="Why do you want to contact me"
-                aria-label="Professional  short bio"
-                >
-            </textarea>
+                <textarea
+                    name="bio"
+                    placeholder="Why do you want to contact me"
+                    aria-label="Professional  short bio"
+                    >
+                </textarea>
 
-            <button type="submit">Submit</button>
+                <button type="submit">Submit</button>
             
-        </form>
+            </form>
+        </section>
+        
 
     </main>
 </body>
