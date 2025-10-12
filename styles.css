@@ -77,22 +77,22 @@ header {
 }
 
 /* 11 */
-.about-image {
+.blog-post-figure {
     float: right;
-    margin-left: 10px;
-    max-width: 300px;
+    margin-left: 50px;
+    max-width: 1000px;
     text-align: center;
 }
 
 /* 12 */
-.image-right img {
+.blog-post-figure img {
     width: 100%;
     height: auto;
     display: block;
 }
 
 /* 13 */
-.image-right figcaption {
+.blog-post-figure figcaption {
     margin-top: 5px;
     padding: 5px;
 }
@@ -128,4 +128,26 @@ nav li {
 nav a {
     color: #612940;
     font-weight: bold;
+}
+
+/* 19 */
+.weekly-newsletter {
+    clear: both;
+    margin: 0px 50px;
+}
+
+/* 20 */
+#car-img {
+    max-width: 50%;
+    height: 75%;
+}
+
+/* 21 */
+.blog-post-2 {
+    margin: 0px 50px;
+}
+
+/* 22 */
+input[type="email"]{
+    border: 2px solid #ba26c7;
 }
