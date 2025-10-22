@@ -151,3 +151,111 @@ nav a {
 input[type="email"]{
     border: 2px solid #ba26c7;
 }
+
+/* Media Screen queries */
+@media screen and (max-width: 616px) {
+    nav li {
+        color: #1f13ca;
+    }
+
+    nav a {
+        color: #1f13ca;
+    }
+
+    /* blah */
+    .blog-img, #car-img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .blog-post-writing {
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0 10px;
+    }
+
+    nav {
+        margin: 0 10px;
+    }
+
+    .favorite-cars {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    nav li {
+        color: #2edf4c;
+    }
+
+    nav a {
+        color: #2edf4c;
+    }
+
+    input[type="email"]{
+        border: 2px solid #1307c0;
+    }
+
+    /* blah */
+    .blog-post-figure {
+        float: none;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+    
+    .weekly-newsletter, .blog-post-2 {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav li {
+        color: #ffffff;
+    }
+
+    nav a {
+        color: #ffffff;
+    }
+
+    header {
+        background-color: #000000;
+    }
+
+    input[type="text"]{
+        border: 2px solid #ff3300;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    nav li {
+        color: #e001ce;
+    }
+
+    nav a {
+        color: #e001ce;
+    }
+
+    input[type="tel"]{
+        border: 2px solid #00ff37;
+    }
+
+    textarea[name="bio"]{
+        border: 2px solid #00ff37;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    nav li {
+        color: #000000;
+    }
+
+    nav a {
+        color: #000000;
+    }
+
+    input[type="submit"]{
+        border: 2px solid #8400ff;
+    }    
+}
